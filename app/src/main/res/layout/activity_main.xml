@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the song"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Genre"
+        android:inputType="textPersonName"
+
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName"/>
+
+
+    <EditText
+        android:id="@+id/editTextlyrics"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:hint="Enter Lyrics"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/editTextGenre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextGenre"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGenre" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save lyrics"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="269dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextlyrics"
+        app:layout_constraintStart_toStartOf="@+id/editTextlyrics"
+        app:layout_constraintTop_toBottomOf="@+id/editTextlyrics" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for other lyrics"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="365dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSave"
+        app:layout_constraintStart_toStartOf="@+id/buttonSave"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSave"
+        />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="365dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSearch"
+        app:layout_constraintStart_toStartOf="@+id/buttonSearch"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSearch"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

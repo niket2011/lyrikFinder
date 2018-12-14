@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "640455065291",
+    "firebase_url": "https://lyrikfinder-1b31f.firebaseio.com",
+    "project_id": "lyrikfinder-1b31f",
+    "storage_bucket": "lyrikfinder-1b31f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640455065291:android:855098ea3f4f2472",
+        "android_client_info": {
+          "package_name": "com.example.niket.lyrikfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640455065291-dqhqpfv0aqsem13l6d5p9gp5c79hva45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzGYfS86WX33NXHZmlisfHEPxEKOjBGDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
